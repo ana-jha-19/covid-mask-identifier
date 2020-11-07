@@ -1,8 +1,8 @@
 from google.cloud import automl
 
-# TODO(developer): Uncomment and set the following variables
-# project_id = "YOUR_PROJECT_ID"
-# display_name = "your_datasets_display_name"
+# TODO: fix vars as needed
+project_id = "covid_mask_identifier"
+display_name = "covid_id_dataset"
 
 client = automl.AutoMlClient()
 

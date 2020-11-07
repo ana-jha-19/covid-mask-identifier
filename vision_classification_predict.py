@@ -1,9 +1,9 @@
 from google.cloud import automl
 
-# TODO(developer): Uncomment and set the following variables
-# project_id = "YOUR_PROJECT_ID"
-# model_id = "YOUR_MODEL_ID"
-# file_path = "path_to_local_file.jpg"
+# TODO: fix vars as needed
+project_id = "covid_mask_identifier"
+model_id = "covid_id_model"
+file_path = "path_to_local_file.jpg"
 
 prediction_client = automl.PredictionServiceClient()
 
